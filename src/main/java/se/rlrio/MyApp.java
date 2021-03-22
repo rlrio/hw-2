@@ -20,8 +20,8 @@ public class MyApp {
     public static void main(String[] args) {
 
         try {
-            //sendMessagesFromFile(args[0], "Сообщения для большого босса");
-            sendMessagesInfiniteLoop(args[0], "Сообщения для большого босса");
+            //sendMessagesFromFile(args[0], "Сообщения");
+            sendMessagesInfiniteLoop(args[0], "Сообщения");
         } catch (ArrayIndexOutOfBoundsException e) {
             System.out.println("Не задан путь к файлу. Укажите путь к файлу в аргументах командной строки.");
         }
